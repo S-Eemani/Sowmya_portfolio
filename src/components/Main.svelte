@@ -6,6 +6,13 @@
         {name: 'Present', icon:'fa-solid fa-list-check'},
         {name: 'Future', icon:'fa-solid fa-diagram-project'},
     ]
+
+    let steps_experience = [
+        {name: 'Student Cyber Security Analyst', icon:"fa-solid fa-shield-halved"},
+        {name: 'Student Researcher - AI', icon:"fa-solid fa-puzzle-piece"},
+        {name: 'Python Developer Intern', icon:"fa-brands fa-python"},
+        {name: 'Research Intern', icon:'fa-solid fa-puzzle-piece'},
+    ]
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -59,6 +66,34 @@
             <Step step={steps[2]} link="/Future">
                 <p>Click to know more about the amazing <strong class="text-violet-400"> Ideas</strong> I want to implement. click to know more</p>
             </Step>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Delving into my <span class="poppins text-violet-400">professional</span> endeavors and achievements.</h3>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps_experience[0]} link="/Past">
+                <p><strong class="text-violet-400"> SOC Security Analyst at Syracuse University   </strong> 
+                <br><strong class="text-violet-400"> Jan 2024 - Present</strong> </p>
+                <p>Tech Stack: Kali-Linux</p>
+            </Step>
+            <Step step={steps_experience[1]} link="/Present">
+                <p><strong class="text-violet-400"> Nexis Student Technology Lab   </strong> 
+                <br><strong class="text-violet-400"> Sep 2023 - Present</strong> </p>
+                <p>Tech Stack: Sckit-Learn, Artificial Intelligence, Python, Github </p>
+            </Step>
+            <Step step={steps_experience[2]} link="/Future">
+                <p><strong class="text-violet-400"> Gleecus TechLabs Inc.   </strong> 
+                <br><strong class="text-violet-400"> Feb 2023 - Jun 2023</strong> </p>
+                <p>Tech Stack: Python - Selenium,boto3, AWS (S3, EC2), Apache Airflow, Github, CI/CD, Docker </p>
+            </Step>
+            <Step step={steps_experience[3]} link="/Future">
+                <p><strong class="text-violet-400"> Polytechnique Montreal   </strong> 
+                <br><strong class="text-violet-400"> Aug 2022 - Nov 2022</strong> </p>
+                <p>Tech Stack: Python, Sckit-Learn, Kali-Linux, Cooja Simulator, Contiki OS</p>
+            </Step>  
         </div>
     </section>
 </main>

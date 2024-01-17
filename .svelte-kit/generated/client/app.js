@@ -10,20 +10,22 @@ export const nodes = [
 	() => import('./nodes/6'),
 	() => import('./nodes/7'),
 	() => import('./nodes/8'),
-	() => import('./nodes/9')
+	() => import('./nodes/9'),
+	() => import('./nodes/10')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/Future": [3],
-		"/Future/Project-1": [4],
-		"/Past": [5],
-		"/Past/Project-1": [6],
-		"/Past/Project-2": [7],
-		"/Present": [8],
-		"/Present/Project-1": [9]
+		"/Blog": [3],
+		"/Future": [4],
+		"/Future/Project-1": [5],
+		"/Past": [6],
+		"/Past/Project-1": [7],
+		"/Past/Project-2": [8],
+		"/Present": [9],
+		"/Present/Project-1": [10]
 	};
 
 export const hooks = {

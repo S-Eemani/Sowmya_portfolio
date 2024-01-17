@@ -1,5 +1,5 @@
 <script>
-  let imagePath = "../images/Self pic.png";
+  let imagePath = "../images/SVM_margin.png";
 </script>
 
 <main id="main" class="mt-4">
