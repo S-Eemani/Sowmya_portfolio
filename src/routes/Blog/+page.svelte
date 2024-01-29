@@ -5,7 +5,7 @@
         link: "https://medium.com/@Sowmya_Eemani/ci-cd-for-airflow-without-using-any-managed-services-1860a725a3b9"
       },
       {
-        name: 'SETTING UP APACHE-AIRFLOW ON AMAZON EC2 INSTANCE WITH UBUNTU',
+        name: 'SETTING UP APACHE-AIRFLOW ON AMAZON EC2 INSTANCE WITH..',
         link: "https://medium.com/@Sowmya_Eemani/setting-up-apache-airflow-on-amazon-ec2-instance-with-ubuntu-1645eb60cd02"
       },
     ];
@@ -14,11 +14,11 @@
       window.open(link, '_blank');
     }
   </script>
-  
+  <!-- class="bg-blue-100 opacity-30" -->
   <main>
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center p-4 relative">
       {#each boxes as box, index}
-        <div class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center group cursor-pointer hover:border-violet-400 duration-200 relative" key={index}>
+        <div class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center group cursor-pointer hover:border-violet-400 duration-200 relative bg-[#020617]" key={index}>
           <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{box.name}</h3>
           <button class="mt-4 py-2 px-4 bg-blue-600 text-white rounded-md transition duration-300 hover:bg-blue-700" on:click={() => openNewPage(box.link)}>Read</button>
           <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
