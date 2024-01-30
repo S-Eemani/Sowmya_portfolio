@@ -15,7 +15,7 @@
   <main>
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center p-4 relative">
       {#each boxes as box, index}
-        <div class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center group cursor-pointer hover:border-violet-400 duration-200 relative" key={index}>
+        <div class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center group cursor-pointer hover:border-violet-400 duration-200 relative bg-[#020617]" key={index}>
           <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{box.name}</h3>
           <p class="relative z-4">{box.description}</p>
           <!-- <button class="mt-4 py-2 px-4 bg-blue-600 text-white rounded-md transition duration-300 hover:bg-blue-700" on:click={() => openNewPage(box.link)}>Go In -></button> -->
